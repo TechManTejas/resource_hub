@@ -60,3 +60,31 @@
 /drush
 /drupal.phar
 /drupal
+
+# Milvus-specific directories and files
+/.ddev/milvus/volumes/
+/.ddev/milvus/volumes/etcd/
+/.ddev/milvus/volumes/milvus/
+/.ddev/milvus/volumes/minio/
+
+# Database files
+*.sst
+CURRENT
+IDENTITY
+LOCK
+LOG
+LOG.old.*
+MANIFEST-*
+OPTIONS-*
+
+# IDE and editor files (if not already ignored elsewhere)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
